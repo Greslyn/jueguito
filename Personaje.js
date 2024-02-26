@@ -50,7 +50,6 @@ class Personaje extends Phaser.Physics.Arcade.Sprite{
 
     
     actionbomb(){
-        
         const {space}= this.controls;
         if(space.isDown){
             let bombsize = 64;
